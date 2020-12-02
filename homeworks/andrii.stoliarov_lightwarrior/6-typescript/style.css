@@ -1,0 +1,54 @@
+.container {
+  padding: 0 10px;
+  border: solid 2px #C4DF9B;
+  margin: 10px auto;
+  height: 480px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header {
+  color: #8B0000;
+  font-size: 36px;
+}
+
+.cube {
+  margin-left: 10px;
+  margin-right: 60px;
+  float: right;
+  background-color: #F00;
+  width: 100px;
+  height: 100px;
+}
+
+.cube-score {
+  overflow: hidden;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.key {
+  background-color: #D3D3D3;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 85px;
+  font-size: 24px;
+}
+
+.progress-bar {
+  background-color: #00F;
+  width: 0%;
+  height: 15px;
+}
+
+.buttons button {
+  border: solid 2px #C4DF9B;
+  background-color: #EDF5E1;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
